@@ -27,9 +27,10 @@ void loop() {
   int u;
   lcd.setCursor(1,0);
   lcd.print("FOLLOW @BAGS_RIZKY PROJECT-03");
-  for (u = 0 ; u < 16; u++) {
+  for (u = 0 ; u < 15; u++) {
     lcd.scrollDisplayLeft();
-    //lcd.scrollDisplayRight();
-    delay(200);
+    delay(100);
+    lcd.scrollDisplayRight();
+    delay(100);
   }
 }
