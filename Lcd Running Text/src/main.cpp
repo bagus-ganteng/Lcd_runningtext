@@ -32,5 +32,7 @@ void loop() {
     delay(100);
     lcd.scrollDisplayRight();
     delay(100);
+    lcd.scrollDisplayLeft();
+    delay(100);
   }
 }
